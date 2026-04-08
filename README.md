@@ -79,7 +79,7 @@ purpleteamlab
 - [ ] Finalize documentation
 ```
 
-### Installation
+## Installation
 
 1. Create an active virtual environment
 2. Install dependencies
@@ -88,6 +88,6 @@ purpleteamlab
 pip install -r requirements.txt
 ```
 
-### License
+## License
 
 This project is licensed under the MIT License.
