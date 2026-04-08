@@ -1,4 +1,5 @@
 from pathlib import Path
+from detector.parser import parse_event_log
 
 def main():
     """Start the detector CLI and verify the log source exists"""
@@ -11,6 +12,8 @@ def main():
         return
 
     print(f"[*] Found log file: {log_file}")
+
+    events = parse_event_log(str(log_file))
     print(f"[*] Ready to parse events from the log.")
 
 if __name__ == "__main__":
