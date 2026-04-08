@@ -9,7 +9,7 @@ def run_recon():
     event = Event.create(
         source = "attacker",
         action = "recon",
-        target = "localhost",
+        target = target,
         status = "success",
         metadata = {"method": "local"}
     )
