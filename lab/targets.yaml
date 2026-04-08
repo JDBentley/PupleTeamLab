@@ -1,0 +1,6 @@
+targets:
+  -name: local_machine
+  host: localhost
+
+  -name: loopback
+  -host: 127.0.0.1

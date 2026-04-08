@@ -1,2 +1,1 @@
-# External project dependencies
-# This file will be updated as new packages are added
+PyYAML
