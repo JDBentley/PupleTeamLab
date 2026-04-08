@@ -84,7 +84,7 @@ purpleteamlab
 
 1. Create an active virtual environment
 2. Install dependencies
-
 ```
-bash
+```bash
 pip install -r requirements.txt
+```
